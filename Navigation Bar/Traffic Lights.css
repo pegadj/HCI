@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.traffic-light {
+    height: 400px;
+    width: 150px;
+    border-radius: 40px;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: black;
+}
+.led {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px auto;
+    background-color: gray;
+}
+.red.current {
+    background-color: red;
+}
+.green.current {
+    background-color: green;
+}
+.yellow.current {
+    background-color: yellow;
+}
