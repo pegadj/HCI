@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Change Text </title>
+    <style>
+        #change {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            height: 100px;
+            background-color: rgba(103, 187, 95, 0.774);
+            border: 2px solid #06361a;
+            margin: 20px;
+            text-align: center;
+            color: black;
+            font-family: 'Gill Sans';
+            font-size: 50px;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1px;
+            height: 100vh;
+        
+        } 
+    </style>
+</head>
+<body>
+    <div id="change"> HCI </div>
+    <button onclick="change()">Change Text</button>
+
+    <script>
+        function change() {
+            var element = document.getElementById("change"); 
+            element.addEventListener('click');
+        }
+        function change() {
+            const element = document.getElementById("change");
+            element.innerHTML = "Human-Computer Interaction";
+            element.style.fontFamily = "Trebuchet MS";
+            element.style.color = "black";
+            element.style.fontSize = '30px';
+        }
+    </script>
+</body>
+</html>
