@@ -1,0 +1,19 @@
+body {
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+table {
+    align-items: center;
+    width: 60%;
+    border: 1px solid black;
+}
+h3 {
+   text-align: center;
+}
+h4 {
+    text-align: center;
+}
+input {
+    justify-content: right;
+}
