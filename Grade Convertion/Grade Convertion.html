@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Grade Convertion.css">
 </head>
 <body>
+
     <table>
         <tr>
             <th colspan="4"> Gordon College </th>
@@ -32,7 +33,7 @@
         <tr>
             <th> </th>
             <th class="label"> Student Number: </th>
-            <th> <input type="text" id="snumber"/></th>
+            <th> <input type="number" id="snumber"/></th>
             <th> </th>
         </tr>
         <tr>
@@ -57,7 +58,7 @@
         </tr>
         <tr> 
             <th> </th>
-            <th colspan="2"> <input type="text" id="final" readonly/></th>
+            <th colspan="2"> <input type="number" id="final" readonly/></th>
             <th> </th>
         </tr>
         <tr> 
@@ -70,7 +71,7 @@
         </tr>
         <tr> 
             <th> </th>
-            <th colspan="2"> <input type="text" id="convert" readonly/></th>
+            <th colspan="2"> <input type="number" id="remarks" readonly/></th>
             <th> </th>
         </tr>
         <tr> 
@@ -78,8 +79,8 @@
         </tr>
         <tr>
             <th></th>
-            <th> <button onclick="compute"> Compute</button></th>
-            <th> <button onclick="clear"> New</button> </th>
+            <th> <button onclick="compute()"> Compute</button></th>
+            <th> <button onclick="clearForm()"> New</button> </th>
             <th></th>
         </tr>
         

@@ -21,11 +21,11 @@ input {
     width: 70%;
     font-family:  Georgia;
 }
-/*input[type="text"], input[type="number"] {
-    width: 100%;
+input[type="text"], input[type="number"] {
+    width: 70%;
     padding: 8px;
     margin-top: 5px;
-}*/
+}
 .label {
     text-align: left;
 }
